@@ -1,6 +1,6 @@
 import openpyxl as xl
 from openpyxl.chart import BarChart,Reference
-# as xl is not required but now we can use just xl instead of openpyxl,it will make it easier
+# as xl is not required but now we can  just use xl instead of openpyxl,it will make it easier
 wb=xl.load_workbook('transactions.xlsx')
 sheet=wb['Sheet1']
 
